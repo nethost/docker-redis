@@ -1,5 +1,4 @@
-FROM nethost/alpine:3.18 as latest
-
+FROM nethost/alpine:3.18 AS latest
 LABEL maintainer="hi@billgo.me"
 
 # add our user and group first to make sure their IDs get assigned consistently, regardless of whatever dependencies get added
